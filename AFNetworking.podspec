@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.watchos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking-watchOS' }
   s.tvos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
   
-if ENV['DEBUG']
+if 1
     s.source_files = 'SDK/**/*.{h}'
     s.ios.vendored_frameworks = 'SDK/*.framework'
 else
