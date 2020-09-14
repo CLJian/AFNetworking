@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AFNetworking'
-  s.version  = '8.0.1'
+  s.version  = '8.0.2'
   s.license  = 'MIT'
   s.summary  = 'A delightful networking framework for Apple platforms.'
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.tvos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
   
 if 1
-    s.source_files = 'SDK/**/*.{h}'
     s.ios.vendored_frameworks = 'SDK/*.framework'
 else
     s.source_files = 'AFNetworking/AFNetworking.h'
