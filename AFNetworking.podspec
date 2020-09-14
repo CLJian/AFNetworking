@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.tvos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
   
 
-  s.source_files = 'SDK/**/*.{h}'
+  s.source_files = ''
   s.ios.vendored_frameworks = 'SDK/*.framework'
 
 end
